@@ -28,4 +28,4 @@ def count_letters(input_string):
                 letter_counts[char] = 1 # Add each letter with a count of 1
 
     # Return the final dictionary
-    return count_letters
+    return letter_counts
