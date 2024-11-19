@@ -63,7 +63,7 @@ def make_employee_dict(names, ids, salaries, emails):
         salary = salaries[index]
         email_address = emails[index]
         # Create the employee object for each set of values.
-        employee = Employee(name, ID_number, salary, email_address)
+        employee = Employee(names, ID_number, salary, email_address)
 
         # Add the Employee object to the dictionary using [ID_number]
         employee_dict[ID_number] = employee
