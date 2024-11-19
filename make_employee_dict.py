@@ -66,20 +66,3 @@ def make_employee_dict(names, ids, salaries, emails):
 
     # Return the dictionary
     return employee_dict
-
-# Test data
-names = ["Jean", "Kat", "Pomona"]
-ids = ["100", "101", "102"]
-salaries = [30, 35, 28]
-emails = ["Jean@aol.com", "Kat@aol.com", "Pomona@aol.com"]
-
-# Create the dictionary of employees
-employees = make_employee_dict(names, ids, salaries, emails)
-
-# Print the test of employee emails and names
-print(employees["100"].get_name())
-print(employees["101"].get_name())
-print(employees["102"].get_name())
-
-print(employees["100"].get_email_address())
-print(employees["101"].get_email_address())
